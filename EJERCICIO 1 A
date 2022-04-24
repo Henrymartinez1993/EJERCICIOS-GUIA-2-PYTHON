@@ -1,0 +1,7 @@
+# (A * B) / 3 * 3 
+# Resultado = 72
+A = 9
+B = 8
+
+operacion = (A * B) / 3 * 3
+print("Resultado: " , operacion)
