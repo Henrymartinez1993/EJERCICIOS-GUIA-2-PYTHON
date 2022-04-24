@@ -1,0 +1,4 @@
+#  4 / 2 * 3 / 6 + 6 / 2 / 1 / 5 * 2 / 4 * 2 Resultado = 1.30   
+
+operacion = 4 / 2 * 3 / 6 + 6 / 2 / 1 / 5 * 1 / 4 * 2
+print("Resultado: " , operacion)
