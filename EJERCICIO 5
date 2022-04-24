@@ -1,0 +1,6 @@
+# ---5--- Imprimir todos los números entre el 100 y el 199.
+
+a = 100
+while a <= 199:
+    print(a)
+    a = a + 1
