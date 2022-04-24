@@ -1,0 +1,11 @@
+# ---3--- Escriba un algoritmo que sume los números ingresados por el usuario
+#          hasta que el usuario ingrese el número 0 (detener las preguntas ante este escenario).
+
+numero = int(input("Ingrese un valor a sumar "))
+suma = 0
+while numero != 0:
+ suma += numero
+ numero = int(input("Ingrese el otro valor a sumar ")) 
+ if (numero == 0):
+  break
+print ("El valor de la Suma es: ",suma)
