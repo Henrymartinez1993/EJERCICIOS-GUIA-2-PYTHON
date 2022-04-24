@@ -1,0 +1,11 @@
+# ---4--- Escriba un algoritmo que sume los números ingresados por el usuario y cuando la 
+#         suma sea superior a 100 deje de pedir números y muestre el total.
+
+numero = int(input("Ingrese un valor a sumar "))
+suma = 0
+while numero!=0:
+ suma += numero 
+ if (suma>100):
+  break 
+ numero = int(input("Ingrese el otro valor a sumar ")) 
+print ("El valor de la Suma es: ",suma)
