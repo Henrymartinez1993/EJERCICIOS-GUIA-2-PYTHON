@@ -1,0 +1,16 @@
+# ---8---Escribir un programa que permita al usuario ingresar 6 números enteros, que pueden 
+# ser positivos o negativos. Al finalizar, mostrar la sumatoria de los números negativos y el 
+# promedio de los positivos.
+positivos = 0
+NPositivos = 0
+negativos = 0
+for i in range (6):
+   numero=int(input("Ingresa un número: "))
+   if numero > 0:
+       positivos=positivos+numero
+       NPositivos = NPositivos + 1
+   else:
+       negativos = negativos + numero
+print("La uma de los numeros negativos es: ", negativos)
+if NPositivos != 0:
+   print("El promedio de los positivos: ",positivos / NPositivos)
