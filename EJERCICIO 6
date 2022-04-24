@@ -1,0 +1,7 @@
+# ---6--- Solicitar al usuario que ingrese una frase y luego imprimir un listado de las vocales que 
+#             aparecen en esa frase (sin repetirlas)
+frase=input("Ingrese una frase: ")
+print("Vocales que contiene la frase:")
+for i in "aeiou":
+  if i in frase:
+    print (i)
