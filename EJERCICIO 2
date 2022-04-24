@@ -1,0 +1,9 @@
+# ---2--- Escriba un algoritmo que calcule e imprima la suma de los n primeros números 
+#         enteros positivos. El valor de n debe leerse del teclado y ser ingresado por el usuario.
+
+numero = int(input("ingrese el valor n "))
+suma = 0
+while numero > 0:
+ operacion = (numero*(numero+1)) / 2
+ break
+print ("El valor de la Suma es:",operacion)
